@@ -1,0 +1,24 @@
+button {
+  margin: 0 10px;
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px;
+  color: #ccc;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  color: #222;
+  border-color: #ffff57;
+  background: #ffff57;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+}
+
+button:focus {
+  outline: none;
+}
